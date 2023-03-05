@@ -1,5 +1,5 @@
 # JS-PROJECT-1-INCREMENT-AND-DECREMENT TOOL
-My JavaScript project is an increment and decrement tool that allows users to increase or decrease a value with just a click of a button. This is a very basic project that showcase my proficiency in the language that I learnt during my journey of learning JavaScript.
+My JavaScript project is an increment and decrement tool that allows users to increase or decrease a value with just a click of a button. This is a very basic project that showcase my proficiency in the language that I learnt during my journey of learning JavaScript. I have used tailwind css in this project.
 
 This simple JavaScript project provides an easy way to increment and decrement a value using buttons. The project offers a customizable user interface and provides a range of options to meet various use cases.
 
@@ -11,7 +11,7 @@ The increment and decrement tool provides the following features:
 3. Customizable styling using CSS
 
 ## How to Use
-To use the increment and decrement tool, simply open the index.html file in your web browser. The user interface will be displayed, allowing you to specify the initial value, minimum and maximum limits, and step value.
+To use the increment and decrement tool, simply open the ( https://sgroshani2912.github.io/JS-PROJECT-1-INCREMENT-AND-DECREMENT-TOOL/ ) link in your web browser. The user interface will be displayed, allowing you to specify the initial value and step value.
 
 Once you've set your desired options, click the "Increment" or "Decrement" buttons to adjust the value. The value will be updated in real-time and displayed in the text box.
 
