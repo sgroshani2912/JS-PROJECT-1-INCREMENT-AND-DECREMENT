@@ -13,7 +13,7 @@ The increment and decrement tool provides the following features:
 ## How to Use
 To use the increment and decrement tool, simply open the ( https://sgroshani2912.github.io/JS-PROJECT-1-INCREMENT-AND-DECREMENT-TOOL/ ) link in your web browser. The user interface will be displayed, allowing you to specify the initial value and step value.
 
-Once you've set your desired options, click the "Increment" or "Decrement" buttons to adjust the value. The value will be updated in real-time and displayed in the text box.
+Once you've set your desired options, click the "Plus" or "Minus" buttons to adjust the value. The value will be updated in real-time and displayed in the text box.
 
 You can use the tool for various applications such as setting the quantity of products, managing inventory, and controlling numeric parameters in web applications.
 
