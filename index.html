@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INCDEC TOOL</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+<body>
+    <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-gradient-to-r from-cyan-200 to-green-300 gap-10">
+        <!--Heading-->
+        <div class="text-[indigo] font-medium text-[40px]">DECREMENT AND INCREMENT TOOL</div>
+
+        <!--Increment and decrement button-->
+        <div class="bg-white flex text-[40px] text-[#344151] rounded-sm p-3 px-5">
+            
+            <!--Negative button-->
+            <button onclick = "decrement()" class=" text-center border-r-2 border-[#bfbfbf] pr-5"><i class="fa-solid fa-minus"></i></button>
+
+            <!--Value-->
+            <div id="counter" class="font-bold border-r-2 border-[#bfbfbf] pl-5 pr-5 text-center">
+                0
+            </div>
+
+            <!--Positive button-->
+            <button onclick = "increment()" 
+             class="pl-5 text-center"><i class="fa-solid fa-plus"></i></button>
+           
+        </div>
+
+        <!--Step size button-->
+        <h2 class="text-[indigo] font-medium text-[40px]">STEP</h2>
+        <div class="bg-white flex text-[40px] text-[#344151] rounded-sm p-3 px-5">
+            
+            <!--Negative button-->
+            <button onclick = "decrement_step()" class=" text-center border-r-2 border-[#bfbfbf] pr-5"><i class="fa-solid fa-minus"></i></button>
+
+            <!--Value-->
+            <div id="step" class="font-bold border-r-2 border-[#bfbfbf] pl-5 pr-5 text-center">
+                0
+            </div>
+
+            <!--Positive button-->
+            <button onclick = "increment_step()" 
+             class="pl-5 text-center"><i class="fa-solid fa-plus"></i></button>
+           
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/e506df6817.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
